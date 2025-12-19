@@ -1,0 +1,59 @@
+ body{
+            background-color:rgb(237, 236, 231);
+        }
+        h1{
+            font-size: 200px;
+            text-align: center;
+        }
+        img{
+            width: 98%;
+            height: 550px;
+            border: 10px black double;
+            border-radius: 50px;
+        }
+        #Main{
+            width: 18%;
+           transition: all 1s ease-in-out;
+
+        }
+        body:hover #Main{
+            width: 98%;
+        }
+        h2{
+            font-size: 50px;
+            text-align: center;
+        }
+        .Image1{
+            width: 23%;
+            height: 315px;
+            transition: all 0.5s ease-in-out;
+
+        }
+        .Image1:hover{
+            transform: scale(0.9);
+        }
+        .Image2{
+            width: 30%;
+            height: 315px;
+           transition: all 0.5s ease-in-out;
+
+        }
+        .Image2:hover{
+            transform: scale(0.9) rotate(5deg);
+        }
+        #Center2{
+            height:370px;
+        }
+        #Center3{
+            width: 98%;
+            height: auto;
+        }
+       .Image3{
+        height: auto;
+        width: auto;
+        transition: none;
+       }
+       .Image3:hover{
+        transform: none;
+       }
+    
